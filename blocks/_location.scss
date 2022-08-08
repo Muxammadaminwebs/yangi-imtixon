@@ -1,0 +1,405 @@
+
+
+
+.nav4 {
+    margin-top: 34px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        height: 28.559999465942383px;
+        width: 107.81714630126953px;
+        left: 169px;
+        top: 34px;
+        border-radius: 0px;
+    }
+
+    &__list {
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: -370px;
+        margin-top: 15px;
+
+        &-item {
+            list-style-type: none;
+
+            &-link {
+                text-decoration: none;
+                height: 25px;
+                width: 46px;
+                left: 0px;
+                top: 0px;
+                border-radius: nullpx;
+                font-family: "Space Mono", monospace;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 25px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #939caa;
+
+            }
+
+            &-link:active {
+                color: #fcb72b;
+            }
+        }
+    }
+
+    &__button {
+        text-decoration: none;
+        color: white;
+        height: 53px;
+        width: 180px;
+        font-family: "Space Mono", monospace;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0px;
+        text-align: center;
+        background: #fcb72b;
+        padding: 10px;
+    }
+
+    &__button:active {
+        border: 3px solid #fcb72b;
+        background-color: white;
+        color: #fcb72b;
+
+
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+   
+    .nav4 {
+        margin-top: 34px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__logo {
+            height: 28.559999465942383px;
+            width: 107.81714630126953px;
+            transform: translateX(-100px);
+            -webkit-transform: translateX(-100px);
+            -moz-transform: translateX(-100px);
+            -ms-transform: translateX(-100px);
+            -o-transform: translateX(-100px);
+        }
+
+        &__list {
+            width: 35%;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 10px;
+
+            &-item {
+                list-style-type: none;
+
+                &-link {
+                    text-decoration: none;
+                    height: 25px;
+                    width: 46px;
+                    left: 0px;
+                    top: 0px;
+                    border-radius: nullpx;
+                    font-family: "Space Mono", monospace;
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 25px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #939caa;
+                    padding: 15px 10px 0 0;
+                    position: relative;
+                    top: 10px;
+
+
+                }
+
+                &-link:active {
+                    color: #fcb72b;
+                }
+            }
+        }
+
+        &__button {
+            text-decoration: none;
+            color: white;
+            height: 53px;
+            width: 180px;
+            font-family: "Space Mono", monospace;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 25px;
+            letter-spacing: 0px;
+            text-align: center;
+            background: #fcb72b;
+            padding: 10px;
+            position: relative;
+            left:80px;
+        }
+
+        &__button:active {
+            border: 3px solid #fcb72b;
+            background-color: white;
+            color: #fcb72b;
+
+
+        }
+    }
+
+}
+
+@media only screen and (max-width:375px) {
+
+    .nav4__list {
+        display: none;
+        visibility: hidden;
+    }
+
+    .nav4 {
+        margin-top: 34px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        &__logo {
+            height: 28.559999465942383px;
+            width: 107.81714630126953px;
+            left: 39px;
+            top: 34px;
+            border-radius: 0px;
+
+        }
+
+        &__list {
+
+
+            display: none;
+            width: 35%;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 10px;
+
+            &-item {
+                list-style-type: none;
+
+                &-link {
+                    text-decoration: none;
+                    height: 25px;
+                    width: 46px;
+                    left: 0px;
+                    top: 0px;
+                    border-radius: nullpx;
+                    font-family: "Space Mono", monospace;
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 25px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #939caa;
+                }
+
+                &-link:active {
+                    color: #fcb72b;
+                }
+            }
+        }
+
+        &__button {
+            text-decoration: none;
+            color: white;
+            height: 53px;
+            width: 180px;
+            font-family: "Space Mono", monospace;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 25px;
+            letter-spacing: 0px;
+            text-align: center;
+            background: #fcb72b;
+            padding: 10px;
+        }
+
+        &__button:active {
+            border: 3px solid #fcb72b;
+            background-color: white;
+            color: #fcb72b;
+
+
+        }
+    }
+
+}
+
+.carpage1 {
+    margin-top: -290px;
+
+    iframe{
+       
+        width: 1100px;
+        height: 543px;
+    }
+
+    &__cards {
+     
+        display: flex;
+        flex-direction: column;
+       
+
+        &__card1 {
+               width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 100px;
+
+            &__title {
+               height: 96px;
+               width: 351px;
+               left: 164px;
+               top: 1081px;
+               border-radius: nullpx;
+               font-family: Space Mono;
+               font-size: 48px;
+               font-weight: 700;
+               line-height: 48px;
+               letter-spacing: -2.142857074737549px;
+               text-align: left;
+
+
+
+            }
+
+            &__text {
+              height: 100px;
+              width: 445px;
+              left: 545px;
+              top: 1079px;
+              border-radius: nullpx;
+
+                font-family: "Space Mono",
+                    monospace;
+            
+              font-size: 15px;
+              font-weight: 400;
+              line-height: 25px;
+              letter-spacing: 0px;
+              text-align: left;
+
+
+
+            }
+
+            &__link {
+                height: 53px;
+                width: 200px;
+                left: 0px;
+                top: 0px;
+                border-radius: 0px;
+                background: #fcb72b;
+                color: white;
+                padding: 19px 50px;
+                text-decoration: none;
+                font-family: Space Mono;
+
+            }
+        }
+
+    }
+}
+@media only screen and (max-width:768px){
+
+
+
+    .carpage1 {
+        margin-top: -450px;
+
+        iframe {
+
+            width: 748px;
+            height: 543px;
+        }
+
+        &__cards {
+
+            display: flex;
+            flex-direction: column;
+
+
+            &__card1 {
+              
+                width: 100%;
+                display: flex;
+                margin-left: 150px;
+                margin-top: 100px;
+                margin-bottom: 200px;
+                flex-direction: column;
+
+                &__title {
+                    height: 96px;
+                    width: 351px;
+                    left: 164px;
+                    top: 1081px;
+                    border-radius: nullpx;
+                    font-family: Space Mono;
+                    font-size: 48px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -2.142857074737549px;
+                    text-align: center;
+                    margin-left: 30px;
+
+
+
+                }
+
+                &__text {
+                    height: 100px;
+                    width: 445px;
+                    left: 545px;
+                    top: 1079px;
+                    border-radius: nullpx;
+
+                    font-family: "Space Mono",
+                        monospace;
+
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 25px;
+                    letter-spacing: 0px;
+                    text-align: center;
+                    padding-top: 30px;
+
+
+
+                }
+
+                &__link {
+                    height: 53px;
+                    width: 200px;
+                    left: 0px;
+                    top: 0px;
+                    border-radius: 0px;
+                    background: #fcb72b;
+                    color: white;
+                    padding: 19px 50px;
+                    text-decoration: none;
+                    font-family: Space Mono;
+                    margin-top: 90px;
+                    margin-left: 120px;
+
+                }
+            }
+
+        }
+    }
+}

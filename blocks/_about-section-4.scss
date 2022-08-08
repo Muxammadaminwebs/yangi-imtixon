@@ -1,0 +1,124 @@
+.faqs {
+margin-top: 120px;
+    margin-bottom: 120px;
+  &__title {
+    height: 48px;
+    width: 540px;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: center;
+    margin-left: 230px;
+    margin-bottom: 64px;
+  }
+
+  &__cards1 {
+    &__card1 {
+      &__title {
+        height: 48px;
+        width: 350px;
+        left: 165px;
+        top: 2386px;
+        border-radius: nullpx;
+        font-family: Space Mono;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -1.7857142686843872px;
+        text-align: left;
+      }
+    }
+
+    display: flex;
+  }
+  &__cards2 {
+    margin-top: 30px;
+
+    &__card1 {
+      &__title {
+        height: 48px;
+        width: 350px;
+        left: 165px;
+        top: 2386px;
+        border-radius: nullpx;
+        font-family: Space Mono;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -1.7857142686843872px;
+        text-align: left;
+      }
+    }
+
+    display: flex;
+  }
+}
+@media only screen and (max-width:768px) {
+    .faqs {
+        &__title {
+            height: 48px;
+            width: 540px;
+            font-family: Space Mono;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: -2.142857074737549px;
+            text-align: center;
+            margin-bottom: 64px;
+            margin-left: -1px;
+            padding-left: 130px;
+        }
+
+
+
+        &__cards1 {
+            &__card1 {
+                &__title {
+                    height: 48px;
+                    width: 350px;
+                    left: 165px;
+                    top: 2386px;
+                    border-radius: nullpx;
+                    font-family: Space Mono;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -1.7857142686843872px;
+                    text-align: center;
+                    margin-left: 170px;
+                    margin-bottom: 32px;
+                }
+            }
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__cards2 {
+            margin-top: 30px;
+            margin-bottom: 120px;
+
+            &__card1 {
+                &__title {
+                    height: 48px;
+                    width: 350px;
+                    left: 165px;
+                    top: 2386px;
+                    border-radius: nullpx;
+                    font-family: Space Mono;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -1.7857142686843872px;
+                       text-align: center;
+                       margin-left: 170px;
+                       margin-bottom: 32px;
+                }
+            }
+
+            flex-direction: column;
+        }
+}
+}

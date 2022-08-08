@@ -1,0 +1,148 @@
+    .coming1 {
+        margin-top: 150px;
+
+        .coming1__cards__card1__img {
+            width: 596px;
+            margin-left: 340px;
+            height: 390px;
+        }
+
+        &__cards {
+            display: flex;
+
+            &__card1 {
+                            margin-left: -100px;
+
+
+
+                transform: translateX(-400px);
+                -webkit-transform: translateX(-400px);
+                -moz-transform: translateX(-400px);
+                -ms-transform: translateX(-400px);
+                -o-transform: translateX(-400px);
+            }
+
+            &__card2 {
+                    margin-left: -160px;
+                &__title {
+                    height: 96px;
+                    width: 445px;
+                    font-family: Space Mono;
+                    font-size: 48px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -2.142857074737549px;
+                    text-align: left;
+                }
+
+                &__text {
+                    height: 100px;
+                    width: 445px;
+                    left: 165px;
+                    top: 1583px;
+                    border-radius: nullpx;
+                    font-family: "Space Mono", monospace;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 25px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    padding-top: 24px;
+                    padding-bottom: 190px;
+                }
+
+                &__link {
+                    height: 53px;
+                    width: 180px;
+                    left: 0px;
+                    top: 0px;
+                    border-radius: 0px;
+                    background: #fcb72b;
+                    color: white;
+                    padding: 19px 50px;
+                    text-decoration: none;
+                    font-family: Space Mono;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width:768px) {
+
+        .coming__cards__card1__img {
+            width: 796px;
+            position: relative;
+            right: -190px;
+            height: 390px;
+        }
+
+        .coming1 {
+            margin-top: -190px;
+
+
+            &__cards {
+                display: flex;
+                flex-direction: column;
+
+
+                &__card1 {
+
+
+                    transform: translateX(-400px);
+                    -webkit-transform: translateX(-400px);
+                    -moz-transform: translateX(-400px);
+                    -ms-transform: translateX(-400px);
+                    -o-transform: translateX(-400px);
+                }
+
+                &__card2 {
+                    
+                
+                    &__title {
+                        height: 96px;
+                        width: 457px;
+                        font-family: Space Mono;
+                        font-size: 48px;
+                        font-weight: 700;
+                        line-height: 48px;
+                        letter-spacing: -2.142857074737549px;
+                        text-align: center;
+                        margin-left: 110px;
+                        margin-top: 100px;
+
+                    }
+
+                    &__text {
+                        height: 75px;
+                        width: 573px;
+                        left: 97px;
+                        top: 3061px;
+                        border-radius: nullpx;
+                        font-family: "Space Mono",
+                            monospace;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 25px;
+                        letter-spacing: 0px;
+                        text-align: center;
+                        margin-left: 50px;
+
+                    }
+
+                    &__link {
+                        height: 53px;
+                        width: 180px;
+                        left: 0px;
+                        top: 0px;
+                        border-radius: 0px;
+                        background: #fcb72b;
+                        color: white;
+                        padding: 19px 50px;
+                        text-decoration: none;
+                        font-family: Space Mono;
+                        margin-left: 230px;
+                    }
+                }
+            }
+        }
+    }

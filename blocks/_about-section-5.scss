@@ -1,0 +1,98 @@
+.section-5 {
+    background-image: url(../images/Mask.png);
+    width: 1440px;
+    margin: auto;
+    height: 300px;
+
+    .banner1 {
+        padding-top: 102px;
+        margin-top: 307px;
+
+        &__cards {
+            display: flex;
+            justify-content: space-between;
+
+            &__card1 {
+                &__title {
+                    height: 96px;
+                    width: 415px;
+                    font-family: Space Mono;
+                    font-size: 48px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -2.142857074737549px;
+                    text-align: left;
+
+                    color: white;
+                }
+            }
+
+            &__card2 {
+                margin-top: 20px;
+
+                &__img {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section-5 {
+        background-image: url(../images/Mask\(2\).png);
+        width: 768px;
+        margin: auto;
+        height: 300px;
+        position: relative;
+        top: 0px;
+
+        .banner1 {
+            margin-top: 10px;
+           
+         
+
+            &__cards {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+              
+
+                &__card1 {
+                    &__title {
+                        height: 96px;
+                        width: 457px;
+                        font-family: Space Mono;
+                        font-size: 48px;
+                        font-weight: 700;
+                        line-height: 48px;
+                        letter-spacing: -2.142857074737549px;
+                        text-align: center;
+                        margin-left: 110px;
+                        margin-top: -50px;
+                        color: white;
+                    }
+                }
+
+                &__card2 {
+                    margin-top: 20px;
+                    margin-left: 95px;
+                    display: flex;
+                    padding-left: 100px;
+
+                    &__img1 {
+                        margin-left: 15px;
+                        width: 123px;
+                        height: 40px;
+                    }
+
+                    &__img2 {
+                        margin-left: 15px;
+                        width: 113px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}

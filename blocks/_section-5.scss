@@ -1,0 +1,140 @@
+.section-5 {
+  background-image: url(../images/Mask.png);
+  width: 1440px;
+  margin: auto;
+  height: 300px;
+
+  .banner {
+    padding-top: 102px;
+    margin-top: 307px;
+
+    &__cards {
+      display: flex;
+      justify-content: space-between;
+
+      &__card1 {
+        &__title {
+          height: 96px;
+          width: 415px;
+          font-family: Space Mono;
+          font-size: 48px;
+          font-weight: 700;
+          line-height: 48px;
+          letter-spacing: -2.142857074737549px;
+          text-align: left;
+
+          color: white;
+        }
+      }
+
+      &__card2 {
+        margin-top: 20px;
+
+        &__img {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-5 {
+    background-image: url(../images/Mask\(2\).png);
+    width: 768px;
+    margin: auto;
+    height: 300px;
+    position: relative;
+    top: -100px;
+
+    .banner {
+      margin-top: 10px;
+
+      &__cards {
+          margin-left: 100px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        &__card1 {
+        
+          &__title {
+            height: 96px;
+            width: 457px;
+            font-family: Space Mono;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: -2.142857074737549px;
+            text-align: center;
+            margin-left: 10px;
+            margin-top: -50px;
+            color: white;
+          }
+        }
+
+        &__card2 {
+          margin-top: 20px;
+          margin-left: 95px;
+          display: flex;
+
+          &__img1 {
+            margin-left: 15px;
+            width: 123px;
+            height: 40px;
+          }
+
+          &__img2 {
+            margin-left: 15px;
+            width: 113px;
+            height: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width:576px) {
+.section-5 {
+   width: 375px;
+   margin: auto;
+   height: 300px;
+
+  background-image: url(../images/Group22\(2\).png);
+ 
+  .banner {
+  
+  
+
+    &__cards {
+      display: flex;
+      justify-content: space-between;
+
+      &__card1 {
+        &__title {
+         height: 64px;
+         width: 311px;
+       
+
+          font-family: Space Mono;
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 48px;
+          letter-spacing: -2.142857074737549px;
+          text-align: center;
+          margin-left: -60px;
+          color: white;
+        }
+      }
+
+      &__card2 {
+        margin-top: 50px;
+        margin-left: -40px;
+
+        &__img {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+}
+}
